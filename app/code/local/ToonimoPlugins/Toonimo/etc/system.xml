@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <tonimo_myconf translate="label">
+            <label>Toonimo</label>
+            <sort_order>150</sort_order>
+        </tonimo_myconf>
+    </tabs>
+    <sections>
+        <taontab translate="label" module="adminhtml">
+            <label>Toonimo Settings</label>
+            <tab>tonimo_myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <toon_general translate="label comment">
+                    <label>Embed Code </label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <expanded>1</expanded>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment><![CDATA[<strong>New User ?</strong>  <a href="" target="_blank">Get Started here.</a><br /><br /><strong>Existing User? </strong>  <a href="" target="_blank">Sign in here.</a><br /><br />Please enter the code for the animated character below. <br /><br />
+If you have any feedback or question,<br />
+You can chat with us on <a href="http://toonimo.com" target="_blank">Toonimo Website </a><style> 
+#row_taontab_toon_general_toon_textarea .label, #row_taontab_toon_general_toon_textarea td.label label ,#row_taontab_toon_general_toon_textarea td.scope-label{width:100px}
+#row_taontab_toon_general_toon_textarea td.value{width:700px;}#row_taontab_toon_general_toon_textarea td.value textarea{width:100%;}</style>]]></comment>
+                    <fields>
+                        
+                        <toon_textarea translate="label comment">
+                            <label>Code: </label>
+                            <comment></comment>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </toon_textarea>
+                        
+                    </fields>
+                </toon_general>
+            </groups>
+        </taontab>
+    </sections>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Toonimo</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Toonimo lets websites owners create custom-animations that guide site visitors through tricky parts of their websites (shopping carts, form fills, site navigation). </summary>
+    <description>Toonimo lets websites owners create custom-animations that guide site visitors through tricky parts of their websites (shopping carts, form fills, site navigation). &#xD;
+Using Toonimo's platform, marketers create on-site, animations with behavior based triggers and easily measure the impact on their site conversion. &#xD;
+So far, Toonimo's clients convert 21% more  watch this video&#xD;
+&#xD;
+Toonimo's platform lets online businesses create, behavior-based, personalized multimedia to boost onsite engagement &amp; conversion. &#xD;
+&#xD;
+* Is simple for marketers to create custom animations - adjust scripts, play triggers, characters, positioning, and other elements,&#xD;
+* Uses behavior-based triggers for personal guidance &#x2013; enabling different messages to be given to different users &#x2013; appearing only when needed&#xD;
+* Is easy to implement - a simple snippet of code on the site&#xD;
+* Provides real time analysis about the impact of each animation through A/B testing&#xD;
+</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Toonimo</name><user>Toonimo</user><email>admin@toonimo.com</email></author></authors>
+    <date>2014-06-18</date>
+    <time>16:58:19</time>
+    <contents><target name="magelocal"><dir name="ToonimoPlugins"><dir name="Toonimo"><dir name="Block"><file name="Toonimo.php" hash="235748c704d477897ddb52ae508b57b9"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4ce9ad60280ae7521775132cfce6e929"/><file name="config.xml" hash="b7aff07ddd62d4daf572676131d9a5a5"/><file name="system.xml" hash="9cbeb303dea7180b127392996b60cba3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ToonimoPlugins_Toonimo.xml" hash="922e447b39ceda02a321660e768e0c5f"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="toonimo"><file name="toonimo.phtml" hash="521a506a91ffeb81db8ac0045d05c97d"/></dir></dir><dir name="layout"><file name="toonimo.xml" hash="17df6d34da3e040e6d5e7e8b103edd09"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>4.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

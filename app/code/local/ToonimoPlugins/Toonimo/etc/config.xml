@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <ToonimoPlugins_Toonimo>
+            <version>1.0.0</version>
+        </ToonimoPlugins_Toonimo>
+    </modules>
+   <global>
+        <blocks>
+            <toon>
+                <class>ToonimoPlugins_Toonimo_Block</class>
+            </toon>
+        </blocks>
+        
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <addblock>
+                    <file>toonimo.xml</file>
+                </addblock>
+            </updates>
+        </layout>
+    </frontend>
+     <default>
+        <taontab>
+            <toon_general>
+                <toon_textarea></toon_textarea>
+            </toon_general>
+        </taontab>
+    </default>
+</config>
