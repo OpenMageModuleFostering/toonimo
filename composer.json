@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Toonimo",
+    "name": "OpenMageModuleFostering\/Toonimo",
     "type": "magento-module",
     "license": "GNU-GPL",
     "homepage": "",
     "description": "Toonimo lets websites owners create custom-animations that guide site visitors through tricky parts of their websites (shopping carts, form fills, site navigation). ",
     "authors": [
-    {
-        "name": "Toonimo",
-        "email": "admin@toonimo.com"
-    }
-],
+        {
+            "name": "Toonimo",
+            "email": "admin@toonimo.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
